@@ -256,6 +256,7 @@
           alert("Ocorreu um erro durante o processamento.");
         } finally {
           document.body.removeChild(document.querySelector("div[style*='position: fixed']"));
+          location.reload();
         }
       }
     }
